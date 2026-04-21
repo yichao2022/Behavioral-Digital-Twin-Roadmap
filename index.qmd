@@ -13,9 +13,11 @@ format:
     code-tools: true
 ---
 
-::: {.callout-note appearance="simple"}
-[📄 View Quarto Source (.qmd)](https://github.com/yichao2022/Behavioral-Digital-Twin-Roadmap/blob/main/index.qmd)
-:::
+<div style="text-align: center;">
+<a href="https://github.com/yichao2022/Behavioral-Digital-Twin-Roadmap" class="github-btn">
+  View on GitHub Source
+</a>
+</div>
 
 ## 1. Vision: Generative Population Modeling
 
@@ -28,20 +30,42 @@ Traditional models often fail to capture the granular, non-linear transitions be
 ::: {.callout-note appearance="simple"}
 ### BDT Logic Flow: From Data to Policy Audit
 ```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#2c3e50', 'primaryTextColor': '#2c3e50', 'lineColor': '#2c3e50', 'clusterBkg': '#fdfdfb', 'clusterBorder': '#2c3e50', 'nodeBorder': '#2c3e50', 'mainBkg': '#ffffff', 'titleColor': '#2c3e50', 'fontFamily': 'Charter, Georgia, serif'}}}%%
 graph TD
-    A[Raw Data: PATH, NHIS, XHS] --> B{BDT Engine}
-    B --> C[Individual Level Utility Surface]
-    B --> D[Disaggregated Agent Simulation]
-    C & D --> E[Population Impact Projections]
-    E --> F[Regulatory Decision Support]
+    %% Node Definitions
+    A[Raw Data: PATH, NHIS, XHS]
+    B{BDT Engine}
+    C[Individual Level Utility Surface]
+    D[Disaggregated Agent Simulation]
+    E[Population Impact Projections]
+    F[Regulatory Decision Support]
+    G[Industry Model Assumptions]
+    H[Logic & Causal Audit]
+
+    %% Connections
+    A --> B
+    B --> C
+    B --> D
+    C & D --> E
+    E --> F
     
-    subgraph "Independent Audit Layer"
-    G[Industry Model Assumptions] -.-> H[Logic & Causal Audit]
-    H --> B
+    subgraph Audit [Independent Audit Layer]
+        G -.-> H
+        H --> B
     end
     
-    style G fill:#f96,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
+    %% Academic Minimalist Styling
+    classDef highlight fill:#f8f9fa,stroke:#2c3e50,stroke-width:2px,stroke-dasharray: 4 4,color:#2c3e50;
+    classDef engine fill:#2c3e50,stroke:#2c3e50,stroke-width:2px,color:#ffffff;
+    classDef audit fill:#fdfdfb,stroke:#2c3e50,stroke-width:2px,color:#2c3e50;
+    classDef default fill:#ffffff,stroke:#2c3e50,stroke-width:1.5px,color:#2c3e50;
+
+    class G highlight;
+    class B engine;
+    class H audit;
+    class A,C,D,E,F default;
+
+    style Audit fill:#fcfcfc,stroke:#ccc,stroke-width:1px,stroke-dasharray: 5 5,color:#666;
 ```
 :::
 

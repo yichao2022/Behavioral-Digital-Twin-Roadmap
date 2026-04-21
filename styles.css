@@ -97,3 +97,25 @@ blockquote {
     color: #555;
     font-style: italic;
 }
+
+/* GitHub Button Styling */
+.github-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24292e;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    transition: background-color 0.2s;
+}
+
+.github-btn:hover {
+    background-color: #444d56;
+}
+
+.github-btn i {
+    margin-right: 8px;
+}
