@@ -4,6 +4,8 @@
 
 This repository open-sources the strategic roadmap and conceptual framework for the **Behavioral Digital Twin (BDT)** approach, as proposed for the Institute for Health Policy Studies (IHPS) at UCSF.
 
+[**🌐 Live Page**](https://yichao2022.github.io/Behavioral-Digital-Twin-Roadmap/) | [**📄 Quarto Source (.qmd)**](https://github.com/yichao2022/Behavioral-Digital-Twin-Roadmap/blob/main/index.qmd)
+
 ### 1. Vision: Generative Population Modeling
 As a **Problem Solver** bridging economic theory and machine learning, this framework proposes the use of **Behavioral Digital Twins (BDT)** to address the complexity of modern tobacco use. 
 
