@@ -10,7 +10,12 @@ format:
     toc: true
     toc-depth: 2
     embed-resources: true
+    code-tools: true
 ---
+
+::: {.callout-note appearance="simple"}
+[📄 View Quarto Source (.qmd)](https://github.com/yichao2022/Behavioral-Digital-Twin-Roadmap/blob/main/index.qmd)
+:::
 
 ## 1. Vision: Generative Population Modeling
 
