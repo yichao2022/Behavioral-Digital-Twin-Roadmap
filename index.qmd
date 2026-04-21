@@ -1,0 +1,56 @@
+---
+title: "Behavioral Digital Twins for Tobacco Regulatory Science"
+subtitle: "Proposed Roadmap at IHPS (UCSF)"
+author: "Yichao (Cary) Jin"
+date: "2026-04-22"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: journal
+---
+
+# Vision: Generative Population Modeling
+
+As a **Problem Solver** bridging economic theory and machine learning, I propose the use of **Behavioral Digital Twins (BDT)** to address the complexity of modern tobacco use. 
+
+Traditional models often fail to capture the granular, non-linear transitions between traditional cigarettes, E-cigarettes, and HTPs (like IQOS). My approach creates individual-level generative agents that “experience” policy changes in a simulated environment before they manifest in the population.
+
+# Core Research Synergies
+
+## Modeling Transitions & Poly-use Dynamics
+
+Transitions are rarely binary. My BDT framework treats a user’s tobacco journey as a **stochastic state-space model**.
+
+- **Product Attributes**: I model how flavor bans or nicotine caps specifically alter the “utility surface” for users, driving them toward either cessation or alternative product uptake.
+- **Dynamic Poly-use**: Simulation of concurrent use patterns (Cigarette + Vaping) based on real-world longitudinal survey data.
+
+## Precision Equity: Vulnerable Group Simulations
+
+Aggregated data masks inequality. I specialize in **disaggregated agent modeling** for:
+
+- **Low SES & Minority Groups**: Integrating specific behavioral constraints (financial burden, retail density) to predict how tax increases or marketing restrictions affect vulnerable groups differently.
+- **Youth & Social Media Influence**: Utilizing ML to extract behavioral priors from social media (e.g., TikTok/XHS) to model the “initiation” phase for adolescents.
+
+## Counter-Industry Predictive Modeling: The Independent Audit Tool
+
+In response to industry-funded health impact models, I advocate for **Independent, Transparent, and Robust Population Health Simulations**.
+
+| Feature | Industry “Black-Box” Models | Behavioral Digital Twin (BDT) |
+| :--- | :--- | :--- |
+| **Transparency** | Proprietary / Hidden Causal Chains | **Open-Source / Peer-Audited** |
+| **Granularity** | Aggregate cohorts | **Individual-level Agents** |
+| **Bias Mitigation** | Optimized for commercial validation | **Optimized for Health Equity** |
+| **Data Fusion** | Limited to historical trends | **Real-time Social Media + Survey Fusion** |
+
+# Technical Stack for UCSF
+
+- **Generative Agents**: Large-scale simulation of 100k+ independent tobacco-using agents.
+- **ML & Social Media**: NLP pipelines for analyzing tobacco/cannabis sentiment and transition signals from unstandardized data.
+- **Large Data Economics**: Expertise in longitudinal survey analysis (PATH, NHIS) integrated with structural modeling.
+
+# Proposed Roadmap at IHPS
+
+1.  **Phase 1**: Pilot a BDT model using California-specific tobacco purchase data to simulate the impact of recent flavor restrictions on Low SES households.
+2.  **Phase 2**: Integrate social media sentiment analysis into transition probability matrices for emerging products (HTPs/Cannabis).
+3.  **Goal**: Establish a **“Regulatory Sandbox”** for policy evaluation that prioritizes health equity and independent oversight.
