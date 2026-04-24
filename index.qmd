@@ -105,6 +105,11 @@ In response to industry-funded health impact models (e.g., PMI's population mode
 2. **Phase 2**: Integrate social media sentiment analysis into transition probability matrices for emerging products (HTPs/Cannabis).
 3. **Goal**: Establish a "Regulatory Sandbox" for policy evaluation that prioritizes health equity and independent oversight.
 
+## Resources & Documentation
+
+- [**BDT Framework Blueprint (PDF)**](https://yichao2022.github.io/Behavioral-Digital-Twin-Roadmap/BDT_Framework_Summary.pdf)
+- [**Technical Summary (Markdown)**](https://github.com/yichao2022/Behavioral-Digital-Twin-Roadmap/blob/main/BDT_Framework_Summary.md)
+
 ---
 
 [Back to Portfolio](https://yichao2022.github.io)
